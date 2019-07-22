@@ -55,6 +55,10 @@ li {
   color: #362024;
   text-align: center; 
 }
+.navbar a:hover {
+  color: #f5f5f5;
+  text-shadow:2px 2px 0 #362024; 
+}
 
 p{
   font-family: Raleway;
@@ -122,7 +126,7 @@ p{
   margin-top: 8px;
   vertical-align: middle;
   width: 100%;
-  box-shadow:5px 5px 0 black;
+  box-shadow:5px 5px 0 #362024;
 }
 
 @media screen and (max-width: 719px) {
